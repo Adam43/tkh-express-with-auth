@@ -1,5 +1,5 @@
 //This is where we will add our auth strategies
-import { Strategy, ExtractJwt } from "passport";
+import { Strategy, ExtractJwt } from "passport-jwt";
 
 export default function setUpJWTStrategy(passport){
     passport.use(
